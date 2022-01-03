@@ -14,11 +14,39 @@ class PersonModel : ObservableObject {
     
     init(){
         
-        getRemoteData()
+        self.people = getLocalData()
     }
     
-    func getRemoteData() {
+    func getLocalData() -> [Person]{
+        let pathString = Bundle.main.path(forResource: "sample", ofType: "json")
         
+        if let path = pathString{
+            
+            let url = URL(fileURLWithPath: path)
+            
+            do{
+                let data = try Data(contentsOf: url)
+                
+                let decoder = JSONDecoder()
+                
+                do{
+                    let characterData = try decoder.decode([Person].self, from: data)
+                    print(characterData)
+                    return characterData
+                }
+                catch{
+                    print(error)
+                }
+                
+            }
+            catch{
+                print(error)
+            }
+            
+        }
+        return [Person]()
     }
     
 }
+
+

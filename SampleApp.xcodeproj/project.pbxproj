@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F925E9A27826DCF0001E3F7 /* SampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F925E9927826DCF0001E3F7 /* SampleAppApp.swift */; };
+		0F925E9A27826DCF0001E3F7 /* SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F925E9927826DCF0001E3F7 /* SampleApp.swift */; };
 		0F925E9C27826DCF0001E3F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F925E9B27826DCF0001E3F7 /* ContentView.swift */; };
 		0F925E9E27826DD10001E3F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F925E9D27826DD10001E3F7 /* Assets.xcassets */; };
 		0F925EA127826DD10001E3F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F925EA027826DD10001E3F7 /* Preview Assets.xcassets */; };
 		0F925EA827826E070001E3F7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F925EA727826E070001E3F7 /* Person.swift */; };
 		0F925EAA27826E420001E3F7 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F925EA927826E420001E3F7 /* PersonModel.swift */; };
+		0F925EAC278273880001E3F7 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F925EAB278273880001E3F7 /* sample.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F925E9627826DCF0001E3F7 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F925E9927826DCF0001E3F7 /* SampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppApp.swift; sourceTree = "<group>"; };
+		0F925E9927826DCF0001E3F7 /* SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleApp.swift; sourceTree = "<group>"; };
 		0F925E9B27826DCF0001E3F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0F925E9D27826DD10001E3F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F925EA027826DD10001E3F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0F925EA727826E070001E3F7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		0F925EA927826E420001E3F7 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		0F925EAB278273880001E3F7 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +57,13 @@
 		0F925E9827826DCF0001E3F7 /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				0F925E9927826DCF0001E3F7 /* SampleAppApp.swift */,
+				0F925E9927826DCF0001E3F7 /* SampleApp.swift */,
 				0F925E9B27826DCF0001E3F7 /* ContentView.swift */,
 				0F925E9D27826DD10001E3F7 /* Assets.xcassets */,
 				0F925E9F27826DD10001E3F7 /* Preview Content */,
 				0F925EA727826E070001E3F7 /* Person.swift */,
 				0F925EA927826E420001E3F7 /* PersonModel.swift */,
+				0F925EAB278273880001E3F7 /* sample.json */,
 			);
 			path = SampleApp;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			files = (
 				0F925EA127826DD10001E3F7 /* Preview Assets.xcassets in Resources */,
 				0F925E9E27826DD10001E3F7 /* Assets.xcassets in Resources */,
+				0F925EAC278273880001E3F7 /* sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +150,7 @@
 				0F925EAA27826E420001E3F7 /* PersonModel.swift in Sources */,
 				0F925EA827826E070001E3F7 /* Person.swift in Sources */,
 				0F925E9C27826DCF0001E3F7 /* ContentView.swift in Sources */,
-				0F925E9A27826DCF0001E3F7 /* SampleAppApp.swift in Sources */,
+				0F925E9A27826DCF0001E3F7 /* SampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

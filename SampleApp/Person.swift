@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct Person : Decodable {
+class Person : Decodable, Identifiable {
     
+    var id:Int?
     var firstName:String?
     var lastName:String?
     var age:Int?
