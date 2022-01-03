@@ -14,7 +14,21 @@ struct ContentView: View {
     var body: some View {
         
         
-        Text(model.people[0].firstName!)
+        ForEach(0..<model.people.count){ index in
+            
+            
+            
+            Button {
+                print("Hey Oliver")
+            } label: {
+                ZStack {
+                    Rectangle().frame(width: 100, height: 100, alignment: .center).foregroundColor(.black)
+                    Text(model.people[index].firstName!).foregroundColor(.white)
+                    
+
+                }
+            }
+        }
     }
 }
 
